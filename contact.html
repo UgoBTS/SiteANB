@@ -1,0 +1,89 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Site Club Amitiés Neuf-Berquinoises</title>
+	<meta name="description" content="Le site internet du Club Amitiés Neuf-Berquinoises.">
+	<meta name="author" content="ANB">
+
+	<meta property="og:title" content="Site Club Amitiés Neuf-Berquinoises">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="Le site internet du Club Amitiés Neuf-Berquinoises.">
+	<meta property="og:image" content="logo.png">
+
+	<link rel="icon" href="/favicon.ico">
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+	<link rel="stylesheet" href="styles.css?v=1.0">
+
+</head>
+
+<header>
+	<div class="topnav">
+		<img src="images/logo.png" alt="Logo" href="index.html" style="max-width:100%;height:auto;">
+		<a class="elements_menu_accueil" href="index.html" style="position:relative; bottom:50px">Accueil</a>
+		<a class="elements_menu_apropos" href="apropos.html" style="position:relative; bottom:50px">A propos</a>
+		<a class="elements_menu_evenements" href="evenements.php" style="position:relative; bottom:50px">Evenements</a>
+		<a class="elements_menu_contact" href="contact.html" style="position:relative; bottom:50px">Contact</a>
+	</div>
+</header>
+
+<body>
+	<div id="page-container">
+		<div id="content-wrap">
+			<div class = "contenu">
+				<div class = "paragraphe_1">
+					<h1>Pour nous contacter</h1>
+					<p>Vous trouverez nos moyens de contacts ci-dessous. Nous vous répondrons dans les plus brefs délais.</p>
+					<p><b>Merci d'être <u>poli et respectueux</u> lors de l'écriture de votre message, d'utiliser une adresse mail correcte et d'éviter d'y intégrer des données personnelles, pour des raisons de sécurité.</b></p>
+				</div>
+				
+				
+				<div class = "paragraphe_1">
+					<h1>Formulaire de contact</h1>
+					<p>Vous pouvez utiliser le formulaire de contact ci-dessous. Ce formulaire fonctionne comme un mail, pour des soucis de respect de la RGPD et de la vie privée, seule l'adresse mail est demandée: il s'agit d'un moyen de vous répondre. Lorsque la conversation sera clôturée, l'adresse mail sera oubliée dans les brefs délais afin de respecter la sécurité des informations de tous les utilisateurs. Pour plus d'informations, vous pouvez consulter la page "A propos".</p>
+				</div>
+				
+				<div class = "formulaire">
+					<form method="post" action="send_script.php">
+					  <a>Adresse mail:</a>
+					  <input type="email" name="email" maxlength="128" size="139"> <br />
+					  <a>Sujet:</a>
+					  <input type="text" name="subject" maxlength="128" size="139"> <br />
+					  <a>Message:</a>
+					  <textarea name="msg" rows="20" cols="128" ></textarea>
+					  <button type="submit" name="send_message_btn">Envoyer</button>
+					  <p id="texto"></p>
+					</form>
+				</div>
+				
+				<div class = "paragraphe_1">
+					<h1>Avertissement</h1>
+					<p><b><u>En cliquant sur "Envoyer", vous acceptez que votre adresse email soit utilisée afin de vous répondre uniquement. Cette dernière sera oubliée dans les plus bref délais suivant la fin de la conversation. Votre email ne sera, en aucun cas, utilisée à des fins commerciales ou pour une inscription à une newsletter. Il vous est fortement déconseillé d'envoyer d'autres données personnelles via ce formulaire lors du premier échange, par mesure de sécurité.</u></b></p>
+				</div>
+				
+				<div class = "paragraphe_1">
+					<h1>Adresse mail</h1>
+					<p>Si vous le souhaitez, vous pouvez également nous contacter à l'adresse mail suivante: amitieesnbclub@gmail.com.</p>
+				</div>
+				
+				<div class = "paragraphe_1">
+					<h1>Adresse du club</h1>
+					<p>L'adresse du club est la suivante: <b>4 rue d'Estaires 59940 Neuf-Berquin.</b></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<footer>
+	<a class = "footer_first">Ce site a été conçu a but informatif. Il présente le Club Amitiés Neuf-Berquinoises et ses actualités. Nous vous souhaitons une bonne navigation.</a>
+	<img class="logo_facebook" src="images/logo-facebook.png" alt="Logo Facebook" width="32" height="32"><a class="footer_afb" href="https://www.facebook.com/Club-Amiti%C3%A9s-Neuf-Berquinoises-108872641853898/" target="_blank"> Page Facebook</a><br>
+	<a class="footer_a">4 rue d'Estaires 59940 Neuf-Berquin</a><br>
+	<a class="footer_a">© 2022 Amitiés Neuf-Berquinoises - Tous droits réservés</a><br>
+</footer>
+</html>

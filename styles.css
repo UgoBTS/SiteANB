@@ -1,0 +1,799 @@
+h1 {
+	color: blue;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-shadow: 1px 1px 1px black;
+}
+
+p {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+h2 {
+	font-weight: bold;
+	color: #0099ff;
+	font-size: 28px;
+	text-align: center;
+}
+
+h3 {
+	color: blue;
+	padding-left: 50px;
+	text-shadow: 1px 1px 1px black;
+}
+
+a {
+	text-decoration: none;
+}
+
+.paragraphe_1 {
+	padding-top: 50px;
+	padding-bottom: 100px;
+	opacity: 1;
+}
+
+.contenu {
+	padding-top: 50px;
+	padding-bottom: 100px;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: white;
+	background: rgb(255, 255, 255, 0.7);
+	border-radius: 5px;
+	border: 5px solid;
+	border-color: #00aaff;
+	box-shadow: 1px 1px 10px #0000b3;
+}
+
+.elements_menu {
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: 50px;
+	color: white;
+	font-size: 18px;
+	border: 2px solid;
+	text-shadow: 1px 1px 2px black;
+	box-shadow: 1px 1px 2px black;
+	background-color: #008ae6;
+}
+
+.elements_menu_accueil {
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: 50px;
+	color: white;
+	font-size: 18px;
+	border: 2px solid;
+	text-shadow: 1px 1px 2px black;
+	box-shadow: 1px 1px 2px black;
+	background-color: #008ae6;
+}
+
+.elements_menu_apropos {
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: 50px;
+	color: white;
+	font-size: 18px;
+	border: 2px solid;
+	text-shadow: 1px 1px 2px black;
+	box-shadow: 1px 1px 2px black;
+	background-color: #008ae6;
+	display:inline-block;
+}
+
+.elements_menu_evenements {
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: 50px;
+	color: white;
+	font-size: 18px;
+	border: 2px solid;
+	text-shadow: 1px 1px 2px black;
+	box-shadow: 1px 1px 2px black;
+	background-color: #008ae6;
+}
+
+.elements_menu_contact {
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: 50px;
+	color: white;
+	font-size: 18px;
+	border: 2px solid;
+	text-shadow: 1px 1px 2px black;
+	box-shadow: 1px 1px 2px black;
+	background-color: #008ae6;
+}
+
+.topnav {
+	background-color: #0099ff;
+	border: 2px solid;
+	border-color: #000099;
+	font-weight: bold;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
+
+
+body {
+	background-image: url("images/etoile.png")
+}
+
+footer {
+	color: white;
+	background-color: #0033cc;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	padding-left: 50px;
+	border: 2px solid;
+	border-color: #000099;
+}
+
+page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+
+
+.fin {
+	color: red;
+}
+
+.footer_first {
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	color: white;
+	size: 10px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.footer_a {
+	display: block;
+	color: white;
+	margin-bottom: 10px;
+	size: 10px;
+	margin-right: 10%;
+	margin-left: 10%;
+	
+}
+
+.footer_afb {
+	position: relative;
+	display: block;
+	color: white;
+	margin-bottom: 10px;
+	size: 10px;
+	margin-right: 10%;
+	margin-left: 10%;
+	right: -40px;
+	
+}
+
+.logo_facebook {
+	position: relative;
+	left: 145px;
+	bottom: -28px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  height: auto;
+  position: relative;
+  margin: auto;
+  z-index: 1;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: blue;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+}
+
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: relative;
+  top: 0;
+}
+
+.dot {
+  color: blue;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.formulaire button {
+	position: relative;
+	right: -1050px;
+	top: 30px;
+	padding: 15px 32px;
+	background-color: #0000b3;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+}
+
+.formulaire a {
+	color: blue;
+	position: relative;
+	right: -10px;
+	top: 23px;
+}
+
+
+@media (max-width: 1525px) {
+	
+	.formulaire button {
+		right: -950px;
+	}
+
+}
+
+@media (max-width: 1450px) {
+	.elements_menu_contact {
+		position: absolute;
+		top: -40px; 
+		left: 102px;
+	}
+	
+	.elements_menu_evenements {
+		position: absolute;
+		top: -17px; 
+		left: -338px;
+	}
+	
+	.formulaire button {
+		right: -950px;
+	}
+	
+	.formulaire button {
+		right: -850px;
+	}
+
+	.logo_facebook {
+		left: 115px;
+	}
+	
+}
+
+@media (max-width: 1350px) {
+	.formulaire button {
+		right: -750px;
+	}
+
+	.formulaire a {
+		color: blue;
+		position: relative;
+		right: -20px;
+		top: -7px;
+	}
+	
+	.logo_facebook {
+		left: 105px;
+	}
+	
+}
+
+@media (max-width: 1240px) {
+	.formulaire button {
+		right: -650px;
+	}
+
+	.logo_facebook {
+		left: 105px;
+	}
+	
+}
+
+@media (max-width: 1130px) {
+	.elements_menu_contact {
+		position: absolute;
+		top: -40px; 
+		left: -249px;
+	}
+	
+	.elements_menu_evenements {
+		position: absolute;
+		top: -40px; 
+		left: 408px;
+	}
+	
+	.dot {
+		height: 10px;
+		width: 10px;
+	}
+	
+	.text {
+		font-size: 10px;
+	}
+	
+	.prev, .next {
+		font-size: 12px;
+	}
+	.numbertext {
+		color: black;
+		font-size: 10px;
+		padding: 8px 12px;
+		position: relative;
+		top: 0;
+	}
+	
+	.formulaire button {
+		right: -550px;
+	}
+	
+	.logo_facebook {
+		left: 95px;
+	}
+
+}
+
+@media (max-width: 1030px) {
+	
+	.formulaire button {
+		right: -450px;
+	}
+	
+	.logo_facebook {
+		left: 85px;
+	}
+}
+
+@media (max-width: 920px) {
+	
+	.formulaire button {
+		right: -350px;
+	}
+	
+	.logo_facebook {
+		left: 75px;
+	}
+}
+
+@media (max-width: 820px) {
+	
+	.formulaire button {
+		right: -250px;
+	}
+	
+	.logo_facebook {
+		left: 65px;
+	}
+}
+
+@media (max-width: 800px) {
+	.elements_menu_accueil {
+		position: absolute;
+		top: -80px; 
+		left: 9px;
+	}
+	
+	.elements_menu_apropos {
+		position: absolute;
+		top: -50px; 
+		left: -313px;
+	}
+	
+	.elements_menu_contact {
+		position: absolute;
+		top: -13px; 
+		left: -249px;
+	}
+	
+	.elements_menu_evenements {
+		position: absolute;
+		top: -42px; 
+		left: 93px;
+	}
+	
+	h1 {
+		font-size: 25px;
+		padding-left: 25px;
+	}
+	
+	h2 {
+		font-size: 25px;
+	}
+	
+	p {
+		font-size: 14px;
+		padding-left: 50px;
+	}
+	
+	.logo_facebook {
+		left: 55px;
+	}
+}
+
+@media (max-width: 779px) {
+	.elements_menu_apropos {
+		position: absolute;
+		top: -50px; 
+		left: -313px;
+	}
+}
+
+@media (max-width: 778px) {
+	.elements_menu_accueil {
+		position: absolute;
+		top: -78px; 
+		left: 9px;
+	}
+	
+	.elements_menu_apropos {
+		position: absolute;
+		top: -70px; 
+		left: 107px;
+	}
+	
+	.elements_menu_contact {
+		position: absolute;
+		top: -32px; 
+		left: 111px;
+	}
+	
+	.elements_menu_evenements {
+		position: absolute;
+		top: -39px; 
+		left: -233px;
+	}
+}
+
+@media (max-width: 720px) {
+	
+	.formulaire button {
+		right: -150px;
+	}
+	
+	.logo_facebook {
+		left: 45px;
+	}
+	
+}
+
+@media (max-width: 710px) {
+	.elements_menu_contact {
+		position: absolute;
+		top: -32px; 
+		left: -241px;
+	}
+	
+	.elements_menu_evenements {
+		position: absolute;
+		top: -62px; 
+		left: 95px;
+	}
+	
+}
+
+@media (max-width: 702px) {
+	.elements_menu_contact {
+		position: absolute;
+		top: -52px; 
+		left: 111px;
+	}
+}
+
+@media (max-width: 620px) {
+	
+	.formulaire button {
+		right: -50px;
+	}
+	
+	.logo_facebook {
+		left: 35px;
+	}
+	
+}
+
+@media (max-width: 520px) {
+	
+	.formulaire button {
+		right: -15px;
+	}
+	
+	.logo_facebook {
+		left: 25px;
+	}
+	
+}
+
+@media (max-width: 480px) {
+	.elements_menu_accueil {
+		position: absolute;
+		top: -78px; 
+		left: 9px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	
+	.elements_menu_apropos {
+		position: absolute;
+		top: -70px; 
+		left: 107px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	
+	.elements_menu_contact {
+		position: absolute;
+		top: -52px; 
+		left: 111px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	
+	.elements_menu_evenements {
+		position: absolute;
+		top: -62px; 
+		left: 95px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	
+	h1 {
+		font-size: 25px;
+		padding-left: 10px;
+	}
+	
+	h2 {
+		font-size: 25px;
+	}
+	
+	p {
+		font-size: 14px;
+		padding-left: 25px;
+	}
+	
+	.contenu {
+		margin-right: 50px;
+		margin-left: 50px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		padding-top: 25px;
+		padding-bottom: 50px;
+	}
+	
+	.logo_facebook {
+		left: 25px;
+	}
+}
+
+@media (max-width: 380px) {
+	.elements_menu_accueil {
+		position: absolute;
+		top: -78px; 
+		left: -29px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.elements_menu_apropos {
+		position: absolute;
+		top: -49px; 
+		left: -150px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.elements_menu_contact {
+		position: absolute;
+		top: -13px; 
+		left: -78px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.elements_menu_evenements {
+		position: absolute;
+		top: -42px; 
+		left: 57px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.contenu {
+		margin-right: 20px;
+		margin-left: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	
+	.logo_facebook {
+		left: 15px;
+	}
+}
+
+@media (max-width: 378px) {
+	.elements_menu_apropos {
+		position: absolute;
+		top: -72px; 
+		left: 70px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.elements_menu_contact {
+		position: absolute;
+		top: -36px; 
+		left: 75px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.elements_menu_evenements {
+		position: absolute;
+		top: -42px; 
+		left: -69px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+@media (max-width: 310px) {
+	.elements_menu_contact {
+		position: absolute;
+		top: -36px; 
+		left: -77px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.elements_menu_evenements {
+		position: absolute;
+		top: -65px; 
+		left: 59px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+@media (max-width: 302px) {
+	.elements_menu_contact {
+		position: absolute;
+		top: -57px; 
+		left: 76px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+@media (max-width: 252px) {
+	.elements_menu_accueil {
+		position: absolute;
+		top: -78px; 
+		left: 76px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	.contenu {
+		margin-right: 10px;
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+	
+	.logo_facebook {
+		left: 5px;
+	}
+}
+
+.image_banniere {
+	width: 100%;
+	height: auto;
+}
+
+.formulaire {
+	background: rgb(0, 170, 255, 0.7);
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	border-radius: 5px;
+	border: 5px solid;
+	border-color: #00aaff;
+	box-shadow: 1px 1px 10px #0000b3;
+}
+
+textarea {
+	resize: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	width: 80%;
+}
+
+input {
+	resize: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	width: 80%;
+}
+
+
